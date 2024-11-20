@@ -25,7 +25,7 @@ Follow these steps to clone the repository and install the necessary dependencie
 
 2. Navigate to the project directory:
    ```bash
-   cd gpa-cgpa-calculator
+   cd CGPA-Calculator
    ```
 
 3. Install the required Python libraries:
