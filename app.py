@@ -7,6 +7,9 @@ from openpyxl import Workbook
 from matplotlib.ticker import MaxNLocator
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
+# Set page title and favicon (logo)
+st.set_page_config(page_title="GPA & CGPA Calculator", page_icon="logo.png", layout="wide")
+
 # Function to calculate GPA for a semester, including subjects with 0 credits
 def calculate_gpa(marks, credits):
     total_marks = sum([mark * credit for mark, credit in zip(marks, credits) if credit > 0])
